@@ -1,0 +1,240 @@
+{ "content": 
+    [
+        {   
+            "homeHeading": {
+                "title": "RADMERC University",
+                "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dignissimos qui totam suscipit! Necessitatibus magnam eaque eius rerum dolor, neque aperiam dignissimos, explicabo iure molestiae asperiores dolores! Pariatur laudantium, fuga quisquam amet error esse labore suscipit nostrum facere doloremque eveniet.",
+                "announceTxt": "Announcing our new training portal."
+            },    
+            "imgCards": {
+                "installer": {
+                    "title": "Installer Coursework",
+                    "subHeader": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                    "imgPath": "/images/home/desktop-unsplash.jpg",
+                    "alt": "Installer",
+                    "btnText": "Go to Roadmap",
+                    "btnLink": "/installer"
+                },
+                "assessor": {
+                    "title": "Assessor Coursework",
+                    "subHeader": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                    "imgPath": "/images/home/checklist-unsplash.jpg",
+                    "alt": "Assessor",
+                    "btnText": "Go to Roadmap",
+                    "btnLink": "/assessor"
+                },
+                "resources": {
+                    "title": "Training Resources",
+                    "subHeader": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                    "imgPath": "/images/home/training-unsplash.jpg",
+                    "alt": "Resources",
+                    "btnText": "Go to Resources",
+                    "btnLink": "/resources"
+                },
+                "schedule": {
+                    "title": "Live Training Schedule",
+                    "subHeader": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                    "imgPath": "/images/home/schedule-canva.png",
+                    "alt": "Calendar",
+                    "btnText": "Go to Calendar",
+                    "btnLink": "/schedule"
+                }
+            },
+            "hoverCards": {
+                "resource1": {            
+                    "cardHeader": "Acronym List",
+                    "cardDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                    "cardTarget": "Everyone",
+                    "cardLink": "/acronyms",
+                    "cardImage": "/images/icons8-target-audience-64.png"
+                },
+                "resource2": {            
+                    "cardHeader": "Lockheed Resources",
+                    "cardDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                    "cardTarget": "Lockhead Martin Employees",
+                    "cardLink": "/lockhead",
+                    "cardImage": "/images/icons8-target-audience-64.png"
+                },
+                "resource3": {            
+                    "cardHeader": "Users Guide",
+                    "cardDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                    "cardTarget": "RADMERC-U Users",
+                    "cardLink": "/guide",
+                    "cardImage": "/images/icons8-target-audience-64.png"
+                }
+            },
+            "links": {
+                "about": {
+                    "title": "About RADMERC-U",
+                    "link": "/about"
+                },
+                "faqs": {
+                    "title": "FAQs",
+                    "link": "/faqs"
+                },
+                "guide": {
+                    "title": "Quick Reference Guide",
+                    "link": "/guide"
+                },
+                "acronyms": {
+                    "title": "Acronyms List",
+                    "link": "/acronyms"
+                },
+                "contact": {
+                    "title": "RADMERC University Administrators",
+                    "email": "mailto:example@email.mil",
+                    "hoverText": "Send an email to our Administrators"
+                },
+                "copyright": {
+                    "year": "2025"
+                }
+            },
+            "pages": {
+                "installer": {
+                    "page": "/assessor",
+                    "title": "Assessor Coursework",
+                    "header": "Zero to Hero Installer Training",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                    "imagePath": "/images/roadmap/roadmap-installer-900.png"            
+                },
+                "assessor": {
+                    "page": "/installer",
+                    "title": "Installer Coursework",
+                    "header": "Zero to Hero Assessor Training",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                    "imagePath": "/images/roadmap/roadmap-assessor-900.png"
+                },
+                "resources": {
+                    "page": "/resources",
+                    "title": "Training Resources",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla."
+                },
+                "schedule": {
+                    "page": "/schedule",
+                    "title": "Live Training Schedule",
+                    "description": "Coming soon..."
+                },
+                "guide": {
+                    "page": "/guide",
+                    "title": "Quick Reference Guide",
+                    "description": "QRGs coming soon..."
+                },
+                "about": {
+                    "page": "/about",
+                    "title": "About RADMERC-U",
+                    "description": "About RADMERC-U coming soon..."
+                },
+                "faqs":{
+                    "page": "/faqs",
+                    "title": "Frequently Asked Questions",
+                    "description": "A collection of the most frequently asked questions about RADMERC University.",
+                    "questions": [
+                        {
+                            "question": "Who is the target audience for the RADMERC University site?",
+                            "answer": "This site is targeting all Installers and Assessors, however, there are other resources that may be used by other users. Please reference the <a href='/resources' class='linkStyle'>Resources Page</a> for more information."
+                        },
+                        {
+                            "question": "Who should I contact if I have a question about this site?",
+                            "answer": "The site administrators can be reached at this email address <a href='mailto:example@email.mil' class='linkStyle'>RMU Administrators</a>"
+                        }
+                    ]            
+                }
+            },
+            "map": {
+                "name": "rmAreas",
+                "areas": [
+                    {
+                        "id": "100",
+                        "shape": "circle",
+                        "fillColor": "transparent",
+                        "strokeColor": "transparent",
+                        "coords": [185,510,54]
+                    },
+                    {
+                        "id": "200",
+                        "shape": "circle",
+                        "fillColor": "transparent",
+                        "strokeColor": "transparent",                
+                        "coords": [320,363,54]
+                    },
+                    {
+                        "id": "300",
+                        "shape": "circle",
+                        "fillColor": "transparent",
+                        "strokeColor": "transparent",
+                        "coords": [453,227,54]
+                    },
+                    {
+                        "id": "400",
+                        "shape": "circle",
+                        "fillColor": "transparent",
+                        "strokeColor": "transparent",
+                        "coords": [580,104,55]
+                    }
+                ]
+            },
+            "modals": {
+                "installer": {
+                    "100": {
+                        "title": "100 Level Installer Courses",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                        "link": "/installer/courses/100",
+                        "linkTxt": "100 level course"
+                    },
+                    "200": {
+                        "title": "200 Level Installer Courses",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                        "link": "/installer/courses/200",
+                        "linkTxt": "200 level course"
+                    },
+                    "300": {
+                        "title": "300 Level Installer Courses",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                        "link": "/installer/courses/300",
+                        "linkTxt": "300 level course"
+                    },
+                    "400": {
+                        "title": "400 Level Installer Courses",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                        "link": "/installer/courses/400",
+                        "linkTxt": "400 level course"
+                    }
+                },
+                "assessor": {
+                "100": {
+                        "title": "100 Level Assessor Courses",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                        "link": "/assessor/courses/100",
+                        "linkTxt": "100 level course"
+                    },
+                    "200": {
+                        "title": "200 Level Assessor Courses",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                        "link": "/assessor/courses/200",
+                        "linkTxt": "200 level course"
+                    },
+                    "300": {
+                        "title": "300 Level Assessor Courses",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                        "link": "/assessor/courses/300",
+                        "linkTxt": "300 level course"
+                    },
+                    "400": {
+                        "title": "400 Level Assessor Courses",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla.",
+                        "link": "/assessor/courses/400",
+                        "linkTxt": "400 level course"
+                    }
+                }
+            }
+        }
+    ],
+    "events": [
+        {
+            "id": 1,
+            "title": "Test Event",
+            "start":"2025-05-21T07:00:00Z",
+            "end": "2025-05-21T16:00:00Z"
+        }
+    ]     
+}
